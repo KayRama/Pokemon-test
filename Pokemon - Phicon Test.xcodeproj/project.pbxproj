@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7157A92C312F7B0040A1A4 /* Pokemon___Phicon_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157A82C312F7B0040A1A4 /* Pokemon___Phicon_TestApp.swift */; };
+		FA7157AD2C312F7E0040A1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7157AC2C312F7E0040A1A4 /* Assets.xcassets */; };
+		FA7157B12C312F7E0040A1A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7157B02C312F7E0040A1A4 /* Preview Assets.xcassets */; };
+		FA7157BB2C312F7F0040A1A4 /* Pokemon___Phicon_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157BA2C312F7F0040A1A4 /* Pokemon___Phicon_TestTests.swift */; };
+		FA7157C52C312F7F0040A1A4 /* Pokemon___Phicon_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157C42C312F7F0040A1A4 /* Pokemon___Phicon_TestUITests.swift */; };
+		FA7157C72C312F7F0040A1A4 /* Pokemon___Phicon_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157C62C312F7F0040A1A4 /* Pokemon___Phicon_TestUITestsLaunchTests.swift */; };
+		FA7157D42C3131740040A1A4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157D32C3131740040A1A4 /* DetailView.swift */; };
+		FA7157D62C3131C90040A1A4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157D52C3131C90040A1A4 /* MainView.swift */; };
+		FA7157D92C3135240040A1A4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157D82C3135240040A1A4 /* Pokemon.swift */; };
+		FA7157DC2C3135FC0040A1A4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157DB2C3135FC0040A1A4 /* NetworkManager.swift */; };
+		FA7157DF2C31366E0040A1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157DE2C31366E0040A1A4 /* ContentView.swift */; };
+		FA7157E12C3136940040A1A4 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157E02C3136940040A1A4 /* ItemRowView.swift */; };
+		FA7157E52C313C570040A1A4 /* MyPokemonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7157E42C313C570040A1A4 /* MyPokemonList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7157B72C312F7F0040A1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA71579D2C312F7B0040A1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7157A42C312F7B0040A1A4;
+			remoteInfo = "Pokemon - Phicon Test";
+		};
+		FA7157C12C312F7F0040A1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA71579D2C312F7B0040A1A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7157A42C312F7B0040A1A4;
+			remoteInfo = "Pokemon - Phicon Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7157A52C312F7B0040A1A4 /* Pokemon - Phicon Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon - Phicon Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7157A82C312F7B0040A1A4 /* Pokemon___Phicon_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon___Phicon_TestApp.swift"; sourceTree = "<group>"; };
+		FA7157AC2C312F7E0040A1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7157AE2C312F7E0040A1A4 /* Pokemon___Phicon_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pokemon___Phicon_Test.entitlements"; sourceTree = "<group>"; };
+		FA7157B02C312F7E0040A1A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA7157B62C312F7F0040A1A4 /* Pokemon - Phicon TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon - Phicon TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7157BA2C312F7F0040A1A4 /* Pokemon___Phicon_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon___Phicon_TestTests.swift"; sourceTree = "<group>"; };
+		FA7157C02C312F7F0040A1A4 /* Pokemon - Phicon TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pokemon - Phicon TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7157C42C312F7F0040A1A4 /* Pokemon___Phicon_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon___Phicon_TestUITests.swift"; sourceTree = "<group>"; };
+		FA7157C62C312F7F0040A1A4 /* Pokemon___Phicon_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon___Phicon_TestUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		FA7157D32C3131740040A1A4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FA7157D52C3131C90040A1A4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA7157D82C3135240040A1A4 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		FA7157DB2C3135FC0040A1A4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA7157DE2C31366E0040A1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA7157E02C3136940040A1A4 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		FA7157E42C313C570040A1A4 /* MyPokemonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokemonList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7157A22C312F7B0040A1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7157B32C312F7F0040A1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7157BD2C312F7F0040A1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA71579C2C312F7B0040A1A4 = {
+			isa = PBXGroup;
+			children = (
+				FA7157A72C312F7B0040A1A4 /* Pokemon - Phicon Test */,
+				FA7157B92C312F7F0040A1A4 /* Pokemon - Phicon TestTests */,
+				FA7157C32C312F7F0040A1A4 /* Pokemon - Phicon TestUITests */,
+				FA7157A62C312F7B0040A1A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7157A62C312F7B0040A1A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157A52C312F7B0040A1A4 /* Pokemon - Phicon Test.app */,
+				FA7157B62C312F7F0040A1A4 /* Pokemon - Phicon TestTests.xctest */,
+				FA7157C02C312F7F0040A1A4 /* Pokemon - Phicon TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7157A72C312F7B0040A1A4 /* Pokemon - Phicon Test */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157A82C312F7B0040A1A4 /* Pokemon___Phicon_TestApp.swift */,
+				FA7157D52C3131C90040A1A4 /* MainView.swift */,
+				FA7157E32C313C430040A1A4 /* MyPokemonList */,
+				FA7157D72C31350E0040A1A4 /* Models */,
+				FA7157AC2C312F7E0040A1A4 /* Assets.xcassets */,
+				FA7157DA2C3135CF0040A1A4 /* ViewModels */,
+				FA7157DD2C3136550040A1A4 /* Views */,
+				FA7157AE2C312F7E0040A1A4 /* Pokemon___Phicon_Test.entitlements */,
+				FA7157E22C313B230040A1A4 /* DetailView */,
+				FA7157AF2C312F7E0040A1A4 /* Preview Content */,
+			);
+			path = "Pokemon - Phicon Test";
+			sourceTree = "<group>";
+		};
+		FA7157AF2C312F7E0040A1A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157B02C312F7E0040A1A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA7157B92C312F7F0040A1A4 /* Pokemon - Phicon TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157BA2C312F7F0040A1A4 /* Pokemon___Phicon_TestTests.swift */,
+			);
+			path = "Pokemon - Phicon TestTests";
+			sourceTree = "<group>";
+		};
+		FA7157C32C312F7F0040A1A4 /* Pokemon - Phicon TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157C42C312F7F0040A1A4 /* Pokemon___Phicon_TestUITests.swift */,
+				FA7157C62C312F7F0040A1A4 /* Pokemon___Phicon_TestUITestsLaunchTests.swift */,
+			);
+			path = "Pokemon - Phicon TestUITests";
+			sourceTree = "<group>";
+		};
+		FA7157D72C31350E0040A1A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157D82C3135240040A1A4 /* Pokemon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA7157DA2C3135CF0040A1A4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157DB2C3135FC0040A1A4 /* NetworkManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA7157DD2C3136550040A1A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157DE2C31366E0040A1A4 /* ContentView.swift */,
+				FA7157E02C3136940040A1A4 /* ItemRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA7157E22C313B230040A1A4 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157D32C3131740040A1A4 /* DetailView.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		FA7157E32C313C430040A1A4 /* MyPokemonList */ = {
+			isa = PBXGroup;
+			children = (
+				FA7157E42C313C570040A1A4 /* MyPokemonList.swift */,
+			);
+			path = MyPokemonList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7157A42C312F7B0040A1A4 /* Pokemon - Phicon Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7157CA2C312F7F0040A1A4 /* Build configuration list for PBXNativeTarget "Pokemon - Phicon Test" */;
+			buildPhases = (
+				FA7157A12C312F7B0040A1A4 /* Sources */,
+				FA7157A22C312F7B0040A1A4 /* Frameworks */,
+				FA7157A32C312F7B0040A1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon - Phicon Test";
+			productName = "Pokemon - Phicon Test";
+			productReference = FA7157A52C312F7B0040A1A4 /* Pokemon - Phicon Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7157B52C312F7F0040A1A4 /* Pokemon - Phicon TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7157CD2C312F7F0040A1A4 /* Build configuration list for PBXNativeTarget "Pokemon - Phicon TestTests" */;
+			buildPhases = (
+				FA7157B22C312F7F0040A1A4 /* Sources */,
+				FA7157B32C312F7F0040A1A4 /* Frameworks */,
+				FA7157B42C312F7F0040A1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7157B82C312F7F0040A1A4 /* PBXTargetDependency */,
+			);
+			name = "Pokemon - Phicon TestTests";
+			productName = "Pokemon - Phicon TestTests";
+			productReference = FA7157B62C312F7F0040A1A4 /* Pokemon - Phicon TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7157BF2C312F7F0040A1A4 /* Pokemon - Phicon TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7157D02C312F7F0040A1A4 /* Build configuration list for PBXNativeTarget "Pokemon - Phicon TestUITests" */;
+			buildPhases = (
+				FA7157BC2C312F7F0040A1A4 /* Sources */,
+				FA7157BD2C312F7F0040A1A4 /* Frameworks */,
+				FA7157BE2C312F7F0040A1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7157C22C312F7F0040A1A4 /* PBXTargetDependency */,
+			);
+			name = "Pokemon - Phicon TestUITests";
+			productName = "Pokemon - Phicon TestUITests";
+			productReference = FA7157C02C312F7F0040A1A4 /* Pokemon - Phicon TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA71579D2C312F7B0040A1A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FA7157A42C312F7B0040A1A4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FA7157B52C312F7F0040A1A4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FA7157A42C312F7B0040A1A4;
+					};
+					FA7157BF2C312F7F0040A1A4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FA7157A42C312F7B0040A1A4;
+					};
+				};
+			};
+			buildConfigurationList = FA7157A02C312F7B0040A1A4 /* Build configuration list for PBXProject "Pokemon - Phicon Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA71579C2C312F7B0040A1A4;
+			productRefGroup = FA7157A62C312F7B0040A1A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7157A42C312F7B0040A1A4 /* Pokemon - Phicon Test */,
+				FA7157B52C312F7F0040A1A4 /* Pokemon - Phicon TestTests */,
+				FA7157BF2C312F7F0040A1A4 /* Pokemon - Phicon TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7157A32C312F7B0040A1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7157B12C312F7E0040A1A4 /* Preview Assets.xcassets in Resources */,
+				FA7157AD2C312F7E0040A1A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7157B42C312F7F0040A1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7157BE2C312F7F0040A1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7157A12C312F7B0040A1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7157DC2C3135FC0040A1A4 /* NetworkManager.swift in Sources */,
+				FA7157E52C313C570040A1A4 /* MyPokemonList.swift in Sources */,
+				FA7157D92C3135240040A1A4 /* Pokemon.swift in Sources */,
+				FA7157DF2C31366E0040A1A4 /* ContentView.swift in Sources */,
+				FA7157D62C3131C90040A1A4 /* MainView.swift in Sources */,
+				FA7157D42C3131740040A1A4 /* DetailView.swift in Sources */,
+				FA7157E12C3136940040A1A4 /* ItemRowView.swift in Sources */,
+				FA7157A92C312F7B0040A1A4 /* Pokemon___Phicon_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7157B22C312F7F0040A1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7157BB2C312F7F0040A1A4 /* Pokemon___Phicon_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7157BC2C312F7F0040A1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7157C52C312F7F0040A1A4 /* Pokemon___Phicon_TestUITests.swift in Sources */,
+				FA7157C72C312F7F0040A1A4 /* Pokemon___Phicon_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7157B82C312F7F0040A1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7157A42C312F7B0040A1A4 /* Pokemon - Phicon Test */;
+			targetProxy = FA7157B72C312F7F0040A1A4 /* PBXContainerItemProxy */;
+		};
+		FA7157C22C312F7F0040A1A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7157A42C312F7B0040A1A4 /* Pokemon - Phicon Test */;
+			targetProxy = FA7157C12C312F7F0040A1A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA7157C82C312F7F0040A1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7157C92C312F7F0040A1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA7157CB2C312F7F0040A1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pokemon - Phicon Test/Pokemon___Phicon_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pokemon - Phicon Test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cahaya.Pokemon---Phicon-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7157CC2C312F7F0040A1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pokemon - Phicon Test/Pokemon___Phicon_Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pokemon - Phicon Test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cahaya.Pokemon---Phicon-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA7157CE2C312F7F0040A1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cahaya.Pokemon---Phicon-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon - Phicon Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pokemon - Phicon Test";
+			};
+			name = Debug;
+		};
+		FA7157CF2C312F7F0040A1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cahaya.Pokemon---Phicon-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokemon - Phicon Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pokemon - Phicon Test";
+			};
+			name = Release;
+		};
+		FA7157D12C312F7F0040A1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cahaya.Pokemon---Phicon-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pokemon - Phicon Test";
+			};
+			name = Debug;
+		};
+		FA7157D22C312F7F0040A1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cahaya.Pokemon---Phicon-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pokemon - Phicon Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7157A02C312F7B0040A1A4 /* Build configuration list for PBXProject "Pokemon - Phicon Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7157C82C312F7F0040A1A4 /* Debug */,
+				FA7157C92C312F7F0040A1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7157CA2C312F7F0040A1A4 /* Build configuration list for PBXNativeTarget "Pokemon - Phicon Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7157CB2C312F7F0040A1A4 /* Debug */,
+				FA7157CC2C312F7F0040A1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7157CD2C312F7F0040A1A4 /* Build configuration list for PBXNativeTarget "Pokemon - Phicon TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7157CE2C312F7F0040A1A4 /* Debug */,
+				FA7157CF2C312F7F0040A1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7157D02C312F7F0040A1A4 /* Build configuration list for PBXNativeTarget "Pokemon - Phicon TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7157D12C312F7F0040A1A4 /* Debug */,
+				FA7157D22C312F7F0040A1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA71579D2C312F7B0040A1A4 /* Project object */;
+}
